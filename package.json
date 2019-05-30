@@ -1,0 +1,14 @@
+{
+  "name": "pid-trap",
+  "version": "2019.5.15",
+  "description": "list all child PIDs",
+  "keywords": [
+    "child",
+    "pid"
+  ],
+  "homepage": "https://github.com/looking-for-a-job/pid-trap",
+  "license": "Unlicense",
+  "bin": {
+    "pid-trap": "./scripts/pid-trap"
+  }
+}

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+{ set +x; } 2>/dev/null
+
+usage() {
+    echo "usage: $(basename $0) pid command [args ...]" 1>&2
+    [[ $1 == "-h" ]] || [[ $1 == "--help" ]]; exit
+}
+
+[[ $1 == "-h" ]] || [[ $1 == "--help" ]] && usage "$@"
+
+[[ $# -lt 2 ]] && usage
+
+while :; do
+    /bin/kill -0 "$1" 2> /dev/null || { "${@:2}"; exit; }; sleep 0.1;
+done
