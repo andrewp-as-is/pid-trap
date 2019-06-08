@@ -1,10 +1,10 @@
 {
   "name": "pid-trap",
-  "version": "2019.5.15",
-  "description": "list all child PIDs",
+  "version": "2019.5.31",
+  "description": "execute command after process termination",
   "keywords": [
-    "child",
-    "pid"
+    "pid",
+    "trap"
   ],
   "homepage": "https://github.com/looking-for-a-job/pid-trap",
   "license": "Unlicense",
