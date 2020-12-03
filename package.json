@@ -1,6 +1,6 @@
 {
   "name": "pid-trap",
-  "version": "2019.5.31",
+  "version": "2020.12.3",
   "description": "execute command after process termination",
   "keywords": [
     "pid",
